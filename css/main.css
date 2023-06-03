@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Tilt+Neon&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --bgCustomColor: #131313;
+    --textCustomColor: #e8e5e5;
+    --bs-body-font-family: Raleway;
+}
+
+/*::-webkit-scrollbar {*/
+/*    width: 0;*/
+/*}*/
+
+body {
+    background: var(--bgCustomColor);
+}
+
+h1, h2 {
+    font-size: 5em;
+}
+
+h1, h2, h3, p, a {
+    color: var(--textCustomColor);
+}
+
+.batman-shadow {
+    text-shadow: red 0px 0px 100px;
+}
+
+.blade-runner-shadow {
+    text-shadow: yellow 0px 0px 200px;
+}
+
+.man-of-steel-shadow {
+    text-shadow: blue 0px 0px 100px;
+}
