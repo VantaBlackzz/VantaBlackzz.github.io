@@ -1,0 +1,14 @@
+:root {
+    --bgCustomColor: #282626;
+    --textCustomColor: #e8e5e5;
+}
+
+body {
+    background: var(--bgCustomColor);
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, h2, h3, p, a {
+    color: var(--textCustomColor);
+}
